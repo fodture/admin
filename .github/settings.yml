@@ -1,0 +1,16 @@
+repository:
+  name: settings
+  description: Pull Requests for GitHub repository settings
+  homepage: https://github.com/apps/settings
+  topics: probot-app, github-app
+  has_wiki: false
+branches:
+  # If the name of the branch value is specified as `default`, then the app will create a branch protection rule to apply against the default branch in the repo
+  - name: main
+    # https://developer.github.com/v3/repos/branches/#update-branch-protection
+    # Branch Protection settings. Set to null to disable
+    protection:
+      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      required_pull_request_reviews:
+        # The number of approvals required. (1-6)
+        required_approving_review_count: 2
