@@ -56,7 +56,7 @@ repository:
   
   # Either `true` to allow merging pull requests with a merge commit, or `false`
   # to prevent merging pull requests with merge commits.
-  allow_merge_commit: true
+  allow_merge_commit: false
   
   # Either `true` to allow rebase-merging pull requests, or `false` to prevent
   # rebase-merging.
@@ -65,7 +65,7 @@ repository:
   # Either `true` to allow auto-merge on pull requests, 
   # or `false` to disallow auto-merge.
   # Default: `false`
-  allow_auto_merge: true
+  allow_auto_merge: false
   
   # Either `true` to allow automatically deleting head branches 
   # when pull requests are merged, or `false` to prevent automatic deletion.
