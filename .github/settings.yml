@@ -37,7 +37,7 @@ repository:
   has_wiki: true
   
   # The default branch for this repository.
-  default_branch: main-enterprise
+  default_branch: main
   
   # Desired language or platform [.gitignore template](https://github.com/github/gitignore) 
   # to apply. Use the name of the template without the extension. 
@@ -133,7 +133,7 @@ teams:
 
 branches:
   # If the name of the branch value is specified as `default`, then the app will create a branch protection rule to apply against the default branch in the repo
-  - name: default
+  - name: main
     # https://developer.github.com/v3/repos/branches/#update-branch-protection
     # Branch Protection settings. Set to null to disable
     protection:
