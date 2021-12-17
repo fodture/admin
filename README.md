@@ -1,3 +1,3 @@
 # admin
 hola mundo
-funciona SEBA
+funciona SEBA2
