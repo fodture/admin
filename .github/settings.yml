@@ -20,7 +20,7 @@ branches:
         users: []
         teams: []
         
-  - name: develop
+  - name: develop2
     # https://developer.github.com/v3/repos/branches/#update-branch-protection
     # Branch Protection settings. Set to null to disable
     protection:
