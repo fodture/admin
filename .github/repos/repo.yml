@@ -28,7 +28,7 @@ repository:
   # Desired language or platform [.gitignore template](https://github.com/github/gitignore) 
   # to apply. Use the name of the template without the extension. 
   # For example, "Haskell".
-  gitignore_template: node
+  gitignore_template: Node
   
   # Either `true` to allow squash-merging pull requests, or `false` to prevent
   # squash-merging.
