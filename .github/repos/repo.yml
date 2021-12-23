@@ -2,7 +2,6 @@ repositories:
   
   - name: another-repo
     # Keep this as true as branch protections will not be applied otherwise
-    auto_init: true
-    org: fodture
+    auto_init: true 
     # A short description of the repository that will show up on GitHub
     description: description of another repo
