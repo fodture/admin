@@ -1,6 +1,6 @@
 branches:
   # If the name of the branch value is specified as `default`, then the app will create a branch protection rule to apply against the default branch in the repo
-  - name: main3
+  - name: main
     protection:
       required_pull_request_reviews:
         required_approving_review_count: 1
@@ -18,7 +18,7 @@ branches:
         users: []
         teams: []
         
-  - name: main2
+  - name: qa
     protection:
       required_pull_request_reviews:
         required_approving_review_count: 1
