@@ -6,7 +6,6 @@
       # A URL with more information about the repository
       homepage: https://example.github.io/
       auto_init: true
-
       topics: github, probot, new-topic, another-topic, topic-12
       private: true
       has_issues: true 
