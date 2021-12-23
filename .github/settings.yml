@@ -1,5 +1,5 @@
 repository: 
-  # Name of the repo  
+  name: test-autocreado
   auto_init: true
   template_repo: template-repo
   topics: 
