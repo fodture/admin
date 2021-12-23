@@ -1,7 +1,7 @@
 repository: 
   # Name of the repo  
-    
   auto_init: true
+  template_repo: template-repo
   topics: 
   - github
   - safe-settings
