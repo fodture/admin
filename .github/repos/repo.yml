@@ -4,5 +4,6 @@ repositories:
     # Keep this as true as branch protections will not be applied otherwise
     auto_init: true 
     force_create: true
+    template_repo: template-repo
     # A short description of the repository that will show up on GitHub
     description: description of another repo
