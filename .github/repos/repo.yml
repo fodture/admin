@@ -1,8 +1,6 @@
 repository: 
   # Name of the repo
   name: testseba
- 
-  # Create the repo if it is not existing
   force_create: true
   template_repo: template-repo
   description: description of the repo
@@ -17,20 +15,8 @@ repository:
   - topic-12
   
   private: false
-  
   visibility: private
-  
- 
-  
-  # The default branch for this repository.
   default_branch: main
-  
-  # Desired language or platform [.gitignore template](https://github.com/github/gitignore) 
-  # to apply. Use the name of the template without the extension. 
-  # For example, "Haskell".
   gitignore_template: Node
-  
-  # Either `true` to allow squash-merging pull requests, or `false` to prevent
-  # squash-merging.
-  #allow_squash_merge: true
+  allow_squash_merge: true
   allow_merge_commit: false
