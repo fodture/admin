@@ -3,7 +3,7 @@ repository:
   - name: test-autocreado
     auto_init: true
     force_create: true
-    #template_repo: template-repo
+    template_repo: template-repo
     topics: github, safe-settings, new-topic, another-topic, topic-12
     private: false
     visibility: private
