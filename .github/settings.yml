@@ -9,7 +9,6 @@ repository:
   - new-topic
   - another-topic
   - topic-12
-  gitignore_template: Node
   private: false
   visibility: private
   default_branch: main
