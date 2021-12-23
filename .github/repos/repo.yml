@@ -1,6 +1,5 @@
 repositories: 
-  
-  - name: another-repo
+  - name: seba007
     # Keep this as true as branch protections will not be applied otherwise
     auto_init: true 
     force_create: true
