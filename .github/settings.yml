@@ -1,5 +1,4 @@
 branches:
-
   - name: main
     protection:
       required_pull_request_reviews:
