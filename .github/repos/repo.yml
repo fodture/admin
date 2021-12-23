@@ -1,13 +1,8 @@
-repository: 
-
-  - name: test-autocreado
+repositories: 
+  
+  - name: another-repo
+    # Keep this as true as branch protections will not be applied otherwise
     auto_init: true
-    force_create: true
-    template_repo: template-repo
-    topics: github, safe-settings, new-topic, another-topic, topic-12
-    private: false
-    visibility: private
-    default_branch: main
-    gitignore_template: Node
-    allow_squash_merge: true
-    allow_merge_commit: false
+    org: fodture
+    # A short description of the repository that will show up on GitHub
+    description: description of another repo
