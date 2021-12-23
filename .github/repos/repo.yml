@@ -1,13 +1,13 @@
 repository: 
 
-  name: test-autocreado
-  auto_init: true
-  force_create: true
-  #template_repo: template-repo
-  topics: github, safe-settings, new-topic, another-topic, topic-12
-  private: false
-  visibility: private
-  default_branch: main
-  gitignore_template: Node
-  allow_squash_merge: true
-  allow_merge_commit: false
+  - name: test-autocreado
+    auto_init: true
+    force_create: true
+    #template_repo: template-repo
+    topics: github, safe-settings, new-topic, another-topic, topic-12
+    private: false
+    visibility: private
+    default_branch: main
+    gitignore_template: Node
+    allow_squash_merge: true
+    allow_merge_commit: false
