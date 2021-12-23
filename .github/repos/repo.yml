@@ -1,6 +1,7 @@
   repositories:
     - name: new-repo
       force_create: true
+      template: template-repo
       description: description of the repo2
       # A URL with more information about the repository
       homepage: https://example.github.io/
@@ -8,8 +9,7 @@
 
       topics: github, probot, new-topic, another-topic, topic-12
       private: true
-      has_issues: true
-      # Either `true` to enable the wiki for this repository, `false` to disable it.
+      has_issues: true 
       has_wiki: false
       has_downloads: true
       default_branch: main
