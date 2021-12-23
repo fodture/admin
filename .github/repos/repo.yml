@@ -1,17 +1,36 @@
-  repositories:
-    - name: new-repo
-      force_create: true
-      template: template-repo
-      description: description of the repo2
-      # A URL with more information about the repository
-      homepage: https://example.github.io/
-      auto_init: true
-      topics: github, probot, new-topic, another-topic, topic-12
-      private: true
-      has_issues: true 
-      has_wiki: false
-      has_downloads: true
-      default_branch: main
-      allow_squash_merge: true
-      allow_merge_commit: true
-      allow_rebase_merge: true
+repository: 
+  # Name of the repo
+  name: testseba
+ 
+  # Create the repo if it is not existing
+  force_create: true
+  template_repo: template-repo
+  description: description of the repo
+  homepage: https://example.github.io/
+    
+  auto_init: true
+  topics: 
+  - github
+  - safe-settings
+  - new-topic
+  - another-topic
+  - topic-12
+  
+  private: false
+  
+  visibility: private
+  
+ 
+  
+  # The default branch for this repository.
+  default_branch: main
+  
+  # Desired language or platform [.gitignore template](https://github.com/github/gitignore) 
+  # to apply. Use the name of the template without the extension. 
+  # For example, "Haskell".
+  gitignore_template: node
+  
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  #allow_squash_merge: true
+  allow_merge_commit: false
