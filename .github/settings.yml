@@ -1,3 +1,5 @@
+repository:    
+  auto_init: true
 branches:
   - name: main
     protection:
