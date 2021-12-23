@@ -1,6 +1,20 @@
-repository:    
+repository: 
+  # Name of the repo  
+    
   auto_init: true
-  gitignore_template: node
+  topics: 
+  - github
+  - safe-settings
+  - new-topic
+  - another-topic
+  - topic-12
+  
+  private: false
+  visibility: private
+  default_branch: main
+  gitignore_template: Node
+  allow_squash_merge: true
+  allow_merge_commit: false
 branches:
   - name: main
     protection:
